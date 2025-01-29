@@ -7,4 +7,9 @@ A frontend (HTML, CSS) for user interaction.
 A database (SQLite/PostgreSQL) for storing report data.
 A testing suite to validate system functionality.
 
-
+Assumptions Made
+Users provide valid input for report generation.
+The database is initialized before running the application.
+The application runs within a virtual environment.
+Dependencies in requirements.txt are correctly installed.
+The Flask app is configured with default development settings.
