@@ -1,0 +1,8 @@
+<!-- templates/report.html -->
+{% extends 'base.html' %}
+
+{% block content %}
+    <h2>Generate Your Transactions Report</h2>
+    <p>Click below to download your CSV report of all transactions:</p>
+    <a href="{{ url_for('main.generate_report') }}" class="btn">Download Report</a>
+{% endblock %}
